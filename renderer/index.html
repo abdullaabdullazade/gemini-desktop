@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Gemini ChatBot</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script type="module">
+    import { marked } from 'https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js';
+    window.marked = marked;
+  </script>
+
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
+</head>
+
+<body>
+  <div id="chat-container">
+    <header>
+      <h2>🤖 Gemini ChatBot</h2>
+    </header>
+    <main id="chat-window">
+    </main>
+    <footer>
+      <textarea id="prompt" placeholder="Sualını yaz..." rows="1"></textarea>
+      <button id="askBtn">Göndər</button>
+      <script>
+        
+      </script>
+    </footer>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+
+</html>

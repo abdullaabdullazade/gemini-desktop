@@ -1,0 +1,28 @@
+{
+  "name": "gemini-desktop",
+  "version": "1.0.0",
+  "description": "Gemini Desktop",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "electron",
+    "gemini",
+    "api"
+  ],
+  "author": "abdullaxows",
+  "homepage": "https://github.com/abdullaxows/gemini-desktop",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^0.12.0",
+    "dotenv": "^16.3.1",
+    "marked": "^15.0.11",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "electron": "^28.3.3",
+    "electron-builder": "^26.0.12"
+  }
+}
